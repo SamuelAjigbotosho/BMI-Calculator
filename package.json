@@ -2,14 +2,18 @@
   "name": "bmi-calculator",
   "version": "1.0.0",
   "description": "BMI Calculator",
-  "main": "bmicalc.js",
+  "main": "bmicalc.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel bmicalc.html",
+    "build": "parcel build bmicalc.html"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/SamuelAjigbotosho"
   },
   "author": "Samuel Ajigbotosho",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
 }
