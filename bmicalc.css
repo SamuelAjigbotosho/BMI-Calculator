@@ -53,7 +53,13 @@ hr {
 
 .bmiBtn:hover {
   border: none;
+  padding: 0.6rem;
   cursor: pointer;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  transition: 1s;
+  background-color: rgb(125, 60, 60);
 }
 
 .output {
@@ -66,11 +72,23 @@ hr {
   font-weight: bold;
 }
 
-.reset {
+.resetBtn {
   background-color: brown;
-  color: blanchedalmond;
+  color: white;
   border: none;
   padding: 0.3rem;
+  cursor: pointer;
+}
+
+.resetBtn:hover {
+  border: none;
+  padding: 0.6rem;
+  cursor: pointer;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  transition: 1s;
+  background-color: rgb(125, 60, 60);
 }
 
 .label {
