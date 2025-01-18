@@ -2,7 +2,7 @@
   "name": "bmi-calculator",
   "version": "1.0.0",
   "description": "BMI Calculator",
-  "main": "bmicalc.html",
+  "main": "bmicalc.js",
   "scripts": {
     "start": "parcel bmicalc.html",
     "build": "parcel build bmicalc.html"
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "sass": "^1.83.4"
   }
 }

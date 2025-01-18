@@ -1,0 +1,113 @@
+@media (width >= 300px) and (width <= 450px) {
+  body {
+    background-color: 6586CD;
+  }
+
+  .container {
+    background-color: 0F192E;
+    width: 80%;
+    height: 90vh;
+    margin: 20px auto;
+    padding-top: 5rem;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+
+    & hr {
+      display: none;
+    }
+  }
+
+  .label {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .user-weight, .user-height {
+    background-color: 567AC8;
+    color: green;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .bmiBtn {
+    background-color: 567AC8;
+    color: #000;
+    border-radius: 24px;
+    width: 70%;
+    padding: 1rem;
+    font-size: .8rem;
+    font-weight: 900;
+  }
+
+  .output {
+    background-color: #fff;
+    background-color: 567AC8;
+    width: 90%;
+    height: 8rem;
+    padding: 2rem;
+    font-family: roboto;
+  }
+}
+
+@media (width >= 451px) and (width <= 800px) {
+  body {
+    background-color: E5E5E5;
+  }
+
+  .container {
+    background-color: 474747;
+    width: 80%;
+    height: 90vh;
+    margin: 20px auto;
+    padding-top: 5rem;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+
+  .user-weight, .user-height {
+    background-color: 567AC8;
+    color: green;
+    border: none;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-size: 1rem;
+  }
+
+  .label {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .bmiBtn {
+    background-color: 567AC8;
+    color: #000;
+    border-radius: 2rem;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .output {
+    background-color: #fff;
+    background-color: 567AC8;
+    width: 97%;
+    height: 12rem;
+    padding: 2rem;
+    font-family: roboto;
+  }
+}
+/*# sourceMappingURL=bmicalc.914ce51a.css.map */

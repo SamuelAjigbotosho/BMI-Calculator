@@ -18,8 +18,10 @@ bmiBtn.addEventListener("click", (e) => {
   let BMI =
     Number.parseFloat(weight.value) / Number.parseFloat(height.value ** 2);
   BMI = +BMI.toFixed(1);
+
   if (weight.value == 0 || height.value == "") {
     bmiResult.textContent = `Please fill out the input fields with valid figures.`;
+    bmiResult.style.color = "red";
   } else if (BMI < 18.5) {
     bmiResult.textContent = `Your BMI is ${BMI} kg per metre square. You are underweight.`;
   } else if (BMI > 18.5 && BMI <= 24.9) {

@@ -1,0 +1,113 @@
+@media (min-width: 300px) and (max-width: 450px) {
+  body {
+    background-color: 6586CD;
+  }
+
+  .container {
+    background-color: 0F192E;
+    margin: 20px auto;
+    width: 80%;
+    height: 90vh;
+    padding-top: 5rem;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+
+    hr {
+      display: none;
+    }
+  }
+  .label {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .user-weight,
+  .user-height {
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: 567AC8;
+    color: green;
+  }
+
+  .bmiBtn {
+    font-size: 0.8rem;
+    background-color: 567AC8;
+    color: black;
+    font-weight: 900;
+    padding: 1rem;
+    width: 70%;
+    border-radius: 24px;
+  }
+
+  .output {
+    width: 90%;
+    height: 8rem;
+    background-color: white;
+    font-family: roboto;
+    padding: 2rem;
+    background-color: 567AC8;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 800px) {
+  body {
+    background-color: E5E5E5;
+  }
+
+  .container {
+    background-color: 474747;
+    margin: 20px auto;
+    width: 80%;
+    height: 90vh;
+    padding-top: 5rem;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+
+  .user-weight,
+  .user-height {
+    padding: 2rem;
+    border: none;
+    font-size: 1rem;
+    background-color: 567AC8;
+    color: green;
+    margin-bottom: 2rem;
+  }
+
+  .label {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .bmiBtn {
+    font-size: 1.3rem;
+    background-color: 567AC8;
+    color: black;
+    font-weight: 600;
+    padding: 1.5rem;
+    width: 70%;
+    border-radius: 2rem;
+    margin: 2rem auto;
+  }
+
+  .output {
+    width: 97%;
+    height: 12rem;
+    background-color: white;
+    font-family: roboto;
+    padding: 2rem;
+    background-color: 567AC8;
+  }
+}
